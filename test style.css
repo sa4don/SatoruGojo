@@ -1,0 +1,64 @@
+body {
+  background-image: url(image/walpaper.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 250px auto;
+  backdrop-filter: blur(8px);
+  background: transparent;
+  border: 0.5px double white;
+  border-radius: 10px;
+}
+form:hover {
+  box-shadow: 0px 0px 8px 0px whitesmoke;
+  transition: 0.3s;
+}
+form img:hover {
+  filter: drop-shadow(0px 0px 5px rgb(185, 199, 205));
+  border-radius: 50px;
+  transition: 0.3s;
+}
+form input {
+  padding: 7px;
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 75%;
+  height: 20px;
+  border: none;
+  background-color: whitesmoke;
+}
+form input:hover {
+  box-shadow: 0px 0px 5px 0px rgb(197, 216, 213);
+}
+
+a {
+  padding: 7px;
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 75%;
+  height: 20px;
+  border: none;
+  background-color: whitesmoke;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #00bfff;
+}
+a:hover {
+  box-shadow: 0px 0px 10px 0px#00a9a5;
+  transition: 0.5s;
+}
+p {
+  color: whitesmoke;
+}
+marquee {
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 10px;
+}
